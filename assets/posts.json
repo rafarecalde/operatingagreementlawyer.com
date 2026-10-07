@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Does a Florida LLC Need an Operating Agreement?",
+    "date": "October 7, 2026",
+    "description": "Florida doesn't require LLCs to have an operating agreement, but without one Chapter 605's default rules control voting, profits, and exits.",
+    "icon": "fas fa-question-circle",
+    "url": "blog-posts/does-florida-llc-need-operating-agreement.html"
+  },
+  {
+    "title": "Multi-Member LLC Operating Agreements in Florida: The Clauses You Need",
+    "date": "October 7, 2026",
+    "description": "Partners in a Florida multi-member LLC need clear terms on capital, voting, distributions, deadlocks, and exits. Key clauses explained under Chapter 605.",
+    "icon": "fas fa-users",
+    "url": "blog-posts/multi-member-llc-operating-agreement-florida.html"
+  },
+  {
+    "title": "Single-Member LLC Operating Agreements in Florida: Why One Matters",
+    "date": "October 7, 2026",
+    "description": "A one-owner Florida LLC still benefits from a written operating agreement: separateness, succession, banking, and Florida's charging-order rule.",
+    "icon": "fas fa-user-shield",
+    "url": "blog-posts/single-member-llc-operating-agreement-florida.html"
+  },
+  {
+    "title": "Operating Agreements for Foreign-Owned Florida LLCs",
+    "date": "October 7, 2026",
+    "description": "Non-U.S. owners of Florida LLCs face extra issues: Form 5472, banking, authority, records, and property rules. How the operating agreement should address them.",
+    "icon": "fas fa-globe-americas",
+    "url": "blog-posts/operating-agreement-foreign-owned-florida-llc.html"
+  },
+  {
+    "title": "Buy-Sell Provisions: What Happens When an LLC Member Leaves, Dies, or Divorces",
+    "date": "October 7, 2026",
+    "description": "How buy-sell provisions in a Florida LLC operating agreement handle a member's death, disability, divorce, or exit: triggers, valuation, and funding.",
+    "icon": "fas fa-handshake",
+    "url": "blog-posts/buy-sell-provisions-llc-member-leaves-dies-divorces.html"
+  },
+  {
+    "title": "How to Amend an LLC Operating Agreement in Florida",
+    "date": "October 7, 2026",
+    "description": "Adding a member, changing percentages, or switching management? How Florida LLCs amend operating agreements under Chapter 605 and when Sunbiz filings are needed.",
+    "icon": "fas fa-edit",
+    "url": "blog-posts/amend-llc-operating-agreement-florida.html"
+  },
+  {
+    "title": "Member-Managed vs. Manager-Managed LLC in Florida",
+    "date": "October 7, 2026",
+    "description": "Should your Florida LLC be member-managed or manager-managed? Chapter 605 defaults, authority, voting, investors, and what Sunbiz shows.",
+    "icon": "fas fa-sitemap",
+    "url": "blog-posts/member-managed-vs-manager-managed-llc-florida.html"
+  },
+  {
+    "title": "Online Operating Agreement Templates: The Risks for Florida LLCs",
+    "date": "October 7, 2026",
+    "description": "Free LLC operating agreement templates often miss Florida law and your actual deal. The most common gaps and how they cause disputes.",
+    "icon": "fas fa-exclamation-triangle",
+    "url": "blog-posts/llc-operating-agreement-template-risks-florida.html"
+  }
+]
