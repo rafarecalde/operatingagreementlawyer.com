@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thank You | Operating Agreement Lawyer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
     <style>
         .thank-you-container {
             text-align: center;
@@ -50,23 +52,22 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
-        <div class="container header-content">
-            <a href="index.html" class="logo">
-                <span class="logo-icon">⚖️</span>
-                <span>Operating Agreement Lawyer</span>
-            </a>
-            <nav id="main-nav">
-                <ul>
-                    <li><a href="index.html#about">About</a></li>
-                    <li><a href="index.html#services">Services</a></li>
-                    <li><a href="index.html#process">Process</a></li>
-                    <li><a href="index.html#pricing">Pricing</a></li>
-                </ul>
-            </nav>
-            <a href="index.html#contact" class="contact-button">Contact Us</a>
-        </div>
-    </header>
+    <header class="site-header">
+    <div class="container header-content">
+      <a href="index.html" class="logo"><span class="logo-mark">OA</span><span>Operating Agreement Lawyer<small>Recalde Law Firm, P.A.</small></span></a>
+      <nav id="main-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html#services">Agreements</a></li>
+          <li><a href="index.html#process">Process</a></li>
+          <li><a href="index.html#why">Why Us</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="index.html#contact" class="btn btn-primary header-cta">Get Started</a>
+      <button class="mobile-menu-button" aria-label="Toggle menu" aria-expanded="false"><i class="fas fa-bars"></i></button>
+    </div>
+  </header>
 
     <!-- Thank You Content -->
     <section class="thank-you-container">
@@ -79,17 +80,33 @@
     </section>
 
     <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-bottom">
-                <p>&copy; 2025 Operating Agreement Lawyer. All rights reserved.</p>
-                <div class="credentials">
-                    <p>Attorney Advertising. Prior results do not guarantee a similar outcome.</p>
-                </div>
-            </div>
+    <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column footer-brand">
+          <a href="index.html" class="logo"><span class="logo-mark">OA</span><span>Operating Agreement Lawyer<small>Recalde Law Firm, P.A.</small></span></a>
+          <p>Lawyer-drafted operating agreements for Florida LLCs, built around Chapter 605 and your actual deal. Serving clients statewide.</p>
         </div>
-    </footer>
+        <div class="footer-column"><h3>Agreements</h3><ul class="footer-links"><li><a href="blog-posts/single-member-llc-operating-agreement-florida.html">Single-Member LLCs</a></li><li><a href="blog-posts/multi-member-llc-operating-agreement-florida.html">Multi-Member LLCs</a></li><li><a href="blog-posts/member-managed-vs-manager-managed-llc-florida.html">Manager-Managed LLCs</a></li><li><a href="blog-posts/operating-agreement-foreign-owned-florida-llc.html">Foreign-Owned LLCs</a></li><li><a href="blog-posts/amend-llc-operating-agreement-florida.html">Amendments</a></li></ul></div>
+        <div class="footer-column"><h3>Resources</h3><ul class="footer-links"><li><a href="blog.html">Blog</a></li><li><a href="blog-posts/does-florida-llc-need-operating-agreement.html">Do You Need One?</a></li><li><a href="blog-posts/buy-sell-provisions-llc-member-leaves-dies-divorces.html">Buy-Sell Provisions</a></li><li><a href="https://yourtmlawyer.com/">Trademark Services</a></li></ul></div>
+        <div class="footer-column"><h3>Contact</h3>
+          <ul class="footer-contact">
+            <li><i class="fas fa-phone"></i> <a href="tel:+13057929100">(305) 792-9100</a></li>
+            <li><i class="fas fa-envelope"></i> <a href="mailto:info@recaldelaw.com">info@recaldelaw.com</a></li>
+            <li><i class="fas fa-map-marker-alt"></i> 1815 Purdy Ave, Miami Beach, FL 33139</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 Recalde Law Firm, P.A. All rights reserved.</div>
+        <div>Attorney advertising. Information on this site is not legal advice.</div>
+      </div>
+    </div>
+  </footer>
 
     <script src="script.js"></script>
+  <div class="calendly-popup" id="calendly-popup"><div class="calendly-content"><button class="close-calendly" id="close-calendly" aria-label="Close">&times;</button><div class="calendly-inline-widget" data-url="https://calendly.com/rafael-recaldelaw/business-contracts" style="min-width:320px;height:100%;"></div></div></div>
+  <script src="script.js"></script>
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
 </body>
 </html>
